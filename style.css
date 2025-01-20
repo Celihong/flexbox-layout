@@ -24,6 +24,10 @@ body {
   flex: 1;
   background-color: yellow;
 }
+.left {
+  width: 30px;
+  background-color: green;
+}
 .main-left {
   flex: 1;
   background-color: yellow;
@@ -31,6 +35,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.center {
+  width: 10px;
+  background-color: green;
 }
 .main-right {
   flex: 1;
@@ -40,7 +48,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-.divider {
-  width: 20px;
-  background-color: green;
+.right {
+  width: 30px;
 }
